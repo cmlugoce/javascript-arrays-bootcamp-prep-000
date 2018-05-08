@@ -12,6 +12,7 @@ return array.unshift(element)
 function addElementToEndOfArray (array, index) {
   return array.push(element)
 }
+
 function accessElementInArray (array, index) {
   return array[index]
 }
