@@ -10,7 +10,7 @@ return array.unshift(element)
 }
 
 function addElementToEndOfArray (array, element) {
-  return array.push(element)
+  return [...array, element]
 }
 
 function accessElementInArray (array, index) {
